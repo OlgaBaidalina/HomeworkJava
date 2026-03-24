@@ -9,7 +9,3 @@ public class Homework1_1 {
         System.out.println("Значение = " + a);
     }
 }
-
-
-
-
