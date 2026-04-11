@@ -17,7 +17,6 @@ public class Homework3_1 {
         int size = scanner.nextInt();
         int[] numbers = new int[size];
 
-        int[] array;
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = (int) (Math.random() * 100);
         }
