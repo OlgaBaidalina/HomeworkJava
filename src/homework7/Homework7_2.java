@@ -24,5 +24,6 @@ public class Homework7_2 {
         System.out.println("1. " + s1);
         System.out.println("2. " + s2);
         System.out.println("3. " + s3);
+        scanner.close();
     }
 }

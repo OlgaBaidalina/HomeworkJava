@@ -26,5 +26,6 @@ public class Homework7_1 {
 
         System.out.println("\n Самая короткая строка: " + min + ".\n Ее длина составляет: " + min.length() + " символов\n");
         System.out.println(" Самая длинная строка: " + max + ".\n Ее длина составляет: " + max.length() + " символов");
+        scanner.close();
     }
 }

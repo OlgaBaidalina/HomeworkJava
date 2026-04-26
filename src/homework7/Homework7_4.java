@@ -22,15 +22,20 @@ public class Homework7_4 {
             boolean unique = true;
             for (int i = 0; i < w.length() && unique; i++) {
                 for (int j = i + 1; j < w.length(); j++) {
-                    if (w.charAt(i) == w.charAt(j)) { unique = false; break; }
+                    if (w.charAt(i) == w.charAt(j)) {
+                        unique = false;
+                        break;
+                    }
                 }
             }
             if (unique) {
                 System.out.println("\nСлово, состоящее только из различных символов:\n" + w);
+                scanner.close();
                 return;
             }
         }
 
         System.out.println("\nСлов, состоящих только из различных символов, не найдено.");
+        scanner.close();
     }
 }

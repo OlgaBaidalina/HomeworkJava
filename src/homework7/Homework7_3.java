@@ -27,5 +27,6 @@ public class Homework7_3 {
         if (s1.length() >= avg && s2.length() >= avg && s3.length() >= avg) {
             System.out.println("Таких строк нет");
         }
+        scanner.close();
     }
 }
