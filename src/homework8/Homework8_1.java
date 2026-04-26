@@ -16,27 +16,15 @@ public class Homework8_1 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите набор чисел через пробел:");
-
         String input = scanner.nextLine();
 
         String[] numbersArray = input.split(" ");
-
-        List<String> list = new ArrayList<>();
         Set<String> uniqueSet = new LinkedHashSet<>();
-        Set<String> duplicatesSet = new HashSet<>();
 
         for (String num : numbersArray) {
             String trimmed = num.trim();
-            list.add(trimmed);
+            uniqueSet.add(trimmed);
         }
-
-        for (String num : list) {
-            if (!uniqueSet.add(num)) {
-                duplicatesSet.add(num);
-            }
-        }
-
-        System.out.println("Введенные числа пользователем: " + list);
         System.out.println("Список уникальных неповторяющихся чисел: " + uniqueSet);
 
         scanner.close();

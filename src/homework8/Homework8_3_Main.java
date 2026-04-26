@@ -13,6 +13,6 @@ public class Homework8_3_Main {
     public static void main(String[] args) {
 
         String[] array = {"guitar", "piano", "flute", "guitar", "piano", "drums", "bongo", "flute", "conga", "tuba", "guitar"};
-        System.out.println("\nВывод: \n" + Homework8_3_Collection.Homework8_3_Collection(array));
+        System.out.println("\nВывод: \n" + Homework8_3_Collection. wordMultiple(array));
     }
 }

@@ -33,11 +33,4 @@ public class Homework8_2_AnimalCollection {
         }
     }
 
-    public int getSize() {
-        return animals.size();
-    }
-
-    public boolean isEmpty() {
-        return animals.isEmpty();
-    }
 }
